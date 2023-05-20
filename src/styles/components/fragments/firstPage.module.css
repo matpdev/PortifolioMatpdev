@@ -1,0 +1,68 @@
+.boxContainer {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   scroll-snap-align: start;
+}
+
+.homeContent {
+   display: flex;
+   flex-direction: column;
+}
+
+.homeContent h1 {
+   font-family: 'Fira Code';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   color: #FFFFFF;
+}
+
+.homeContent .firstTitle {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 74px;
+   color: #71CD91;
+}
+
+.homeContent .secondTitle {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 53px;
+   color: #8A8780;
+   margin-top: -20px;
+}
+
+.homeContent .secondPart p {
+   margin-top: 30px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 27px;
+   color: #D6D2C7;
+   max-width: 680px;
+}
+
+@media (max-width: 767.98px) {
+   .homeContent {
+      padding: 0px 40px;
+   }
+
+   .firstTitle {
+      font-size: 50px !important;
+   }
+
+   .secondTitle {
+      font-size: 33px !important;
+      margin-top: 0 !important;
+   }
+
+   .secondPart p {
+      font-size: 16px !important;
+   }
+}
