@@ -12,7 +12,7 @@ export default function FirstPage() {
         </div>
         <div className={styles.secondPart}>
           <p>
-            I'm a software engineer specializing in visual, web or mobile
+            I&apos;m a software engineer specializing in visual, web or mobile
             creations and experiences - with over 8 years of experience.
           </p>
         </div>
