@@ -5,6 +5,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -29,4 +30,33 @@ body {
 
 a {
   color: white;
+}
+
+.indexPage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.indexLineHori {
+  width: 100%;
+  min-width: 100px;
+  margin-right: 10px;
+  height: 1px;
+  background-color: white;
+}
+
+.indexPageName {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  width: auto;
+  display: flex;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.indexPageName .indexNumber {
+  color: #71CD91;
 }

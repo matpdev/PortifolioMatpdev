@@ -40,7 +40,7 @@ export default function HeaderPart() {
     >
       <div className={styles.headerComponent}>
         <div className={styles.logo}>
-          <img src="/next.svg" alt="" />
+          <img src="/icons/myLogo.svg" alt="" />
         </div>
         <div className={styles.headerItems}>
           <a href="#about">
