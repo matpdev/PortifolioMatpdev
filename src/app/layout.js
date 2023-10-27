@@ -1,6 +1,11 @@
-import HeaderPart from "@/components/parts/header/header";
 import Links from "@/components/parts/links/linksComponent";
 import "@css/globals.css";
+
+import dynamic from "next/dynamic";
+
+const HeaderPart = dynamic(() => import("@/components/parts/header/header"), {
+  ssr: false,
+});
 
 import { Inter } from "next/font/google";
 
@@ -17,7 +22,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <HeaderPart></HeaderPart>
         <Links></Links>
-        {children}
+        <div>{children}</div>
       </body>
     </html>
   );

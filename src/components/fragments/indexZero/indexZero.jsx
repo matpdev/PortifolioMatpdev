@@ -60,7 +60,7 @@ export default function IndexZero() {
             </div>
           </div>
           <div className={styles.columnTwo}>
-            <img src="/meImage.jpeg" alt="Matheus Alves" />
+            <img src="/meImage.jpg" alt="Matheus Alves" />
           </div>
         </div>
       </div>
