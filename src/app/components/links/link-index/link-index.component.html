@@ -1,0 +1,24 @@
+<div className="LinksIndex">
+  @if (!!linkWeb) {
+  <a [href]="linkWeb" target="_blank" rel="noopener noreferrer">
+    <i-feather
+      name="link"
+      style="font-size: 30px; height: auto !important"
+    ></i-feather>
+  </a>
+  } @if (!!linkGithub) {
+  <a [href]="linkGithub" target="_blank" rel="noopener noreferrer">
+    <i-feather
+      name="github"
+      style="font-size: 30px; height: auto !important"
+    ></i-feather>
+  </a>
+  } @if (!!linkLinkedinPost) {
+  <a [href]="linkLinkedinPost" target="_blank" rel="noopener noreferrer">
+    <i-feather
+      name="linkedin"
+      style="font-size: 30px; height: auto !important"
+    ></i-feather>
+  </a>
+  }
+</div>

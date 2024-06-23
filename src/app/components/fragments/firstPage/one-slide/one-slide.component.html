@@ -1,0 +1,35 @@
+<div class="boxContainer" id="experience">
+  <div class="oneContent">
+    <app-part-index name="Experience" index="1"></app-part-index>
+    <div class="rowRoot">
+      <div class="selectable">
+        @for (select of selectables; track select; let i = $index;) {
+        <div
+          [className]="select.isSelected ? 'selected' : ''"
+          (click)="onClickSelectable(i)"
+        >
+          {{ select.name }}
+        </div>
+        }
+      </div>
+      <div class="showSelected">
+        <div class="head">
+          {{ getSelected()?.role }}{{ " " }}
+          <span> {{ "@" }} {{ getSelected()?.name }} </span>
+        </div>
+        <div class="time">
+          {{ getSelected()?.timeStart }}{{ " " }} - {{ getSelected()?.timeEnd }}
+        </div>
+        <div class="testemonials">
+          @for (testemonial of getSelected()?.testemonials; track testemonial;
+          let i = $index;) {
+          <div class="testemonial">
+            <img src="/assets/icons/arrowRight.svg" alt="" srcset="" />
+            <div class="testemoContent">{{ testemonial }}</div>
+          </div>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

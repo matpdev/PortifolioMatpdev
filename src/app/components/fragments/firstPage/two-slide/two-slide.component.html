@@ -1,0 +1,53 @@
+<div class="boxContainer" id="experience">
+  <div class="twoContent">
+    <app-part-index name="Works" index="2"></app-part-index>
+    <div class="rowRoot">
+      @for (item of works[page]; track $index) { @if ($index % 2 == 0) {
+      <div class="blockWorks">
+        <div class="boxImage">
+          <img src="" alt="" srcset="" />
+        </div>
+        <div class="boxText">
+          <div class="content">
+            <p class="head">{{ item.name }}</p>
+            <p class="desc">{{ item.description }}</p>
+            <app-link-index
+              [linkWeb]="item.links.site ?? ''"
+              [linkGithub]="item.links.github ?? ''"
+              [linkLinkedinPost]="item.links.linkedin ?? ''"
+            ></app-link-index>
+          </div>
+          <div class="techno">{{ item.stacks.join(" - ") }}</div>
+        </div>
+      </div>
+      } @else {
+      <div class="blockWorksReverse">
+        <div class="boxImage">
+          <img src="" alt="" srcset="" />
+        </div>
+        <div class="boxText">
+          <div class="content">
+            <p class="head">{{ item.name }}</p>
+            <p class="desc">{{ item.description }}</p>
+            <app-link-index
+              [linkWeb]="item.links.site ?? ''"
+              [linkGithub]="item.links.github ?? ''"
+              [linkLinkedinPost]="item.links.linkedin ?? ''"
+            ></app-link-index>
+          </div>
+          <div class="techno">{{ item.stacks.join(" - ") }}</div>
+        </div>
+      </div>
+      } }
+    </div>
+    <div class="pagination">
+      <div (click)="decreasePage()" class="left button-page">
+        <img src="/assets/icons/arrowRight.svg" alt="" srcset="" />
+      </div>
+      <p class="page">{{ page + 1 }}</p>
+      <div (click)="increasePage()" class="right button-page">
+        <img src="/assets/icons/arrowRight.svg" alt="" srcset="" />
+      </div>
+    </div>
+  </div>
+</div>
