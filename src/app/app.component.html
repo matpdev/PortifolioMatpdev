@@ -1,12 +1,15 @@
-<main>
-  <app-header></app-header>
-  <app-link></app-link>
-  <div class="Home">
-    <app-presentation-slide></app-presentation-slide>
-    <app-zero-slide></app-zero-slide>
-    <app-one-slide></app-one-slide>
-    <app-two-slide></app-two-slide>
-  </div>
-</main>
+<div id="smooth-wrapper">
+  <main id="smooth-content">
+    <app-header></app-header>
+    <app-link></app-link>
+    <div class="Home">
+      <app-presentation-slide></app-presentation-slide>
+      <app-zero-slide></app-zero-slide>
+      <app-one-slide></app-one-slide>
+      <app-two-slide></app-two-slide>
+    </div>
+    <div #cursor id="cursor_data" class="cursor"></div>
+  </main>
+</div>
 
 <router-outlet />

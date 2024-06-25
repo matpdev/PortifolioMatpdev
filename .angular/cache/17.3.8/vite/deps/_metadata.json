@@ -1,61 +1,73 @@
 {
-  "hash": "3a8917d6",
-  "configHash": "181fc7f0",
-  "lockfileHash": "0c0e2a7d",
-  "browserHash": "8cd20e82",
+  "hash": "5d494d8c",
+  "configHash": "361090ae",
+  "lockfileHash": "67a22aa0",
+  "browserHash": "19ff151c",
   "optimized": {
-    "@angular/core": {
-      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
-      "file": "@angular_core.js",
-      "fileHash": "06eb00a2",
-      "needsInterop": false
-    },
-    "@angular/platform-browser": {
-      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
-      "file": "@angular_platform-browser.js",
-      "fileHash": "029771d5",
-      "needsInterop": false
-    },
-    "@angular/router": {
-      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
-      "file": "@angular_router.js",
-      "fileHash": "e7ff580c",
-      "needsInterop": false
-    },
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "13dfb950",
-      "needsInterop": false
-    },
-    "gsap": {
-      "src": "../../../../../node_modules/gsap/index.js",
-      "file": "gsap.js",
-      "fileHash": "db63464d",
-      "needsInterop": false
-    },
-    "gsap/ScrollTrigger": {
-      "src": "../../../../../node_modules/gsap/ScrollTrigger.js",
-      "file": "gsap_ScrollTrigger.js",
-      "fileHash": "150dceb4",
-      "needsInterop": false
-    },
-    "angular-feather": {
-      "src": "../../../../../node_modules/angular-feather/fesm2015/angular-feather.js",
-      "file": "angular-feather.js",
-      "fileHash": "16aac37c",
-      "needsInterop": false
-    },
-    "angular-feather/icons": {
-      "src": "../../../../../node_modules/angular-feather/fesm2015/angular-feather-icons.js",
-      "file": "angular-feather_icons.js",
-      "fileHash": "46dd82e4",
+      "fileHash": "f64b1756",
       "needsInterop": false
     },
     "@angular/common/http": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "653707f7",
+      "fileHash": "97c87de1",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "c2250413",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "d73b8d12",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "0579c355",
+      "needsInterop": false
+    },
+    "angular-feather": {
+      "src": "../../../../../node_modules/angular-feather/fesm2015/angular-feather.js",
+      "file": "angular-feather.js",
+      "fileHash": "99c72a93",
+      "needsInterop": false
+    },
+    "angular-feather/icons": {
+      "src": "../../../../../node_modules/angular-feather/fesm2015/angular-feather-icons.js",
+      "file": "angular-feather_icons.js",
+      "fileHash": "d19ad36a",
+      "needsInterop": false
+    },
+    "gsap": {
+      "src": "../../../../../node_modules/gsap/index.js",
+      "file": "gsap.js",
+      "fileHash": "fef044f6",
+      "needsInterop": false
+    },
+    "gsap-trial/ScrollSmoother": {
+      "src": "../../../../../node_modules/gsap-trial/ScrollSmoother.js",
+      "file": "gsap-trial_ScrollSmoother.js",
+      "fileHash": "3c3d0d97",
+      "needsInterop": false
+    },
+    "gsap-trial/ScrollTrigger": {
+      "src": "../../../../../node_modules/gsap-trial/ScrollTrigger.js",
+      "file": "gsap-trial_ScrollTrigger.js",
+      "fileHash": "b549d9a7",
+      "needsInterop": false
+    },
+    "ngx-splide": {
+      "src": "../../../../../node_modules/ngx-splide/fesm2022/ngx-splide.mjs",
+      "file": "ngx-splide.js",
+      "fileHash": "a9282a89",
       "needsInterop": false
     }
   },

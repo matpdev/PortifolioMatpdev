@@ -1,13 +1,14 @@
 import { Component, OnInit } from "@angular/core";
-import { PartIndexComponent } from "../../../part-index/part-index.component";
+import { PartIndexComponent } from "../../../parts/part-index/part-index.component";
 import { HttpClient } from "@angular/common/http";
 import { RepoWorks } from "../../../../../types/types";
 import { LinkIndexComponent } from "../../../links/link-index/link-index.component";
+import { CarrouselComponent } from "../../../parts/carrousel/carrousel.component";
 
 @Component({
   selector: "app-two-slide",
   standalone: true,
-  imports: [PartIndexComponent, LinkIndexComponent],
+  imports: [PartIndexComponent, LinkIndexComponent, CarrouselComponent],
   templateUrl: "./two-slide.component.html",
   styleUrl: "./two-slide.component.scss",
 })

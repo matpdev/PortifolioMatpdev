@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { PartIndexComponent } from "../../../part-index/part-index.component";
+import { PartIndexComponent } from "../../../parts/part-index/part-index.component";
 import { HttpClient } from "@angular/common/http";
 import { RepoType } from "../../../../../types/types";
 

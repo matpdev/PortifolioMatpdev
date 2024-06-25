@@ -38,6 +38,18 @@
   -o-border-radius: 8px;
 }
 
+.boxImageItem {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
 .boxImage::before {
   content: "";
   z-index: -1;

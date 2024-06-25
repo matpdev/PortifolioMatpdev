@@ -5,7 +5,9 @@
       @for (item of works[page]; track $index) { @if ($index % 2 == 0) {
       <div class="blockWorks">
         <div class="boxImage">
-          <img src="" alt="" srcset="" />
+          <div class="boxImageItem">
+            <app-carrousel [images]="item.image"></app-carrousel>
+          </div>
         </div>
         <div class="boxText">
           <div class="content">
@@ -23,7 +25,9 @@
       } @else {
       <div class="blockWorksReverse">
         <div class="boxImage">
-          <img src="" alt="" srcset="" />
+          <div class="boxImageItem">
+            <app-carrousel [images]="item.image"></app-carrousel>
+          </div>
         </div>
         <div class="boxText">
           <div class="content">

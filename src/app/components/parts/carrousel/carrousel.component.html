@@ -1,0 +1,21 @@
+<div class="corrousel">
+  <splide
+    [syncWith]="mainSplide!"
+    [options]="{
+      type   : 'loop',
+      perPage: 1,
+      height: 228,
+      focus: 'center',
+      autoplay: true,
+      interval: 3000,
+      arrows: false,
+      pagination: false,
+    }"
+  >
+    @for (item of images; track $index) {
+    <splide-slide class="img" delay="1000">
+      <img [src]="item" alt="" />
+    </splide-slide>
+    }
+  </splide>
+</div>

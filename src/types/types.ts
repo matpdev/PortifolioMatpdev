@@ -16,4 +16,5 @@ export type RepoWorks = {
     site?: string;
   };
   stacks: string[];
+  image: string[];
 };

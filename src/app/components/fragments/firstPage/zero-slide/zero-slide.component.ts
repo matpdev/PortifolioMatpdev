@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { PartIndexComponent } from "../../../part-index/part-index.component";
+import { PartIndexComponent } from "../../../parts/part-index/part-index.component";
 
 @Component({
   selector: "app-zero-slide",
